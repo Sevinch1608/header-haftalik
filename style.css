@@ -89,11 +89,6 @@ header {
       line-height: 133.6%;
       text-decoration: none;
     }
-
-    .modal{
-        display: none;
-    }
-
     .barsMenu ul{
         display: flex;
         align-items: start;
@@ -388,21 +383,11 @@ h3 {
     .hero {
         display: flex;
         flex-direction: row;
-        /* gap: 55px; */
         align-items: center;
         justify-content: space-between;
-        /* border: 1px solid red; */
     }
 
-    /* .hero-text {
-        width: 368px;
-        height: 380px;
-        margin-top: -200px;
-    } */
-
-    /* .hero-img img {
-        min-width: 180px;
-    } */
+   
 
     h1 {
         font-size: 31.25px;
@@ -411,13 +396,11 @@ h3 {
     }
     .border-hero{
         margin-left: 50px;
-        /* max-width: 95%; */
     }
 
     .border-hero img {
         height: 450px;
         width: 406px;
-        /* position: absolute; */
     }
 
     .google-app img {
