@@ -16,6 +16,109 @@ header {
     height: 100%;
 }
 
+.overly {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    background: #00000035;
+    position: fixed;
+    z-index: 5;
+  }
+  .modal {
+    position: fixed;
+    z-index: 9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(90deg, #1d98ff 0%, #2961ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+.i {
+      font-size: 3.5rem;
+      position: absolute;
+      color: #fff;
+      top: 3rem;
+      cursor: pointer;
+      right: 3rem;
+    }
+ h2 {
+      color: #fff;
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 123.6%;
+      text-transform: capitalize;
+      text-align: center;
+    }
+.barsMenu a:nth-child(3) {
+      padding: 2.2rem 2.5rem;
+      border-radius: 1rem;
+      background: #fff;
+      color: #5956e9;
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 123.6%;
+      text-decoration: none;
+      margin: 6.2rem;
+    }
+   .barsMenu p {
+      color: #fff;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 133.6%;
+      margin-bottom: 1rem;
+    }
+    .barsMenu a:last-child {
+      color: #fff;
+      font-size: 3.6rem;
+      font-weight: 600;
+      line-height: 133.6%;
+      text-decoration-line: underline;
+    }
+  
+   .hidden {
+    display: none;
+  }
+  
+  .fa-bars {
+    display: none;
+  }
+
+  .download-here {
+    border-radius: 10px;
+    background-color: #FFF;
+    padding: 22px 25px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 123.6%;
+    text-decoration-line: underline;
+    color: #1D98FF;
+ 
+}
+.modal  p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 133.6%;
+    color: #fff;
+    margin-top: 62px;
+}
+
+.email-p {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 133.6%;
+    text-decoration-line: underline;
+    color: #fff;
+
+}
+
+
 .nav-top,
 ul {
     display: none;
@@ -507,6 +610,14 @@ a {
         color: #fff;
     
     }
+    h2 {
+        
+        font-size: 48px;
+
+
+        margin-bottom: 62px;
+    }
+}
     
 
       /* .down {
@@ -519,15 +630,7 @@ a {
     
 }
 
-h2 {
-    color: #FFF;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 123.6%;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 62px;
-}
+
 
 
 /*
@@ -536,4 +639,4 @@ h2 {
     font-size: 24px;
    
 } */
-    }
+    
